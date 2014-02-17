@@ -16,7 +16,22 @@ end
 
 =begin
 
+Objetivo:
+
+Generar respuestas JSON.
+
+
+
+
+
+
+---------------------------------
 Desarrollo / deploy
+
+-----  server local
+bundle exec ruby app.rb
+
+ir a http://0.0.0.0:4567/
 
 -----  ver info
 git status
@@ -32,5 +47,7 @@ git push github master
 
 -----  enviar a producción
 git push origin master
+
+ir a http://lab-lanuez.rhcloud.com/
 
 =end
