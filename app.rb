@@ -10,7 +10,8 @@ get '/agent' do
 end
 
 get '/suma/:a/:b' do
-  params[:a].to_i + params[:b].to_i
+  result = params[:a].to_i + params[:b].to_i
+  result.to_s
 end
 
 =begin
